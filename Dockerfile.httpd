@@ -1,0 +1,8 @@
+# use httpd official image
+FROM httpd:latest
+
+# set working directory
+WORKDIR /usr/local/apache2/htdocs/
+
+# copy all file from local directory to working directory
+COPY . .
