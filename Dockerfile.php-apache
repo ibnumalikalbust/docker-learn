@@ -9,3 +9,6 @@ WORKDIR /var/www/html/
 
 # copy all file from local directory to working directory
 COPY . .
+
+# expose port
+EXPOSE 80

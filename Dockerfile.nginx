@@ -1,8 +1,8 @@
 # use httpd official image
-FROM httpd:latest
+FROM nginx:latest
 
 # set working directory
-WORKDIR /usr/local/apache2/htdocs/
+WORKDIR /usr/share/nginx/html/
 
 # copy all file from local directory to working directory
 COPY . .
